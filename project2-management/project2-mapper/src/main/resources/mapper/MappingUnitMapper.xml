@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aaa.mapper.MappingUnitMapper">
+    <resultMap id="BaseResultMap" type="com.aaa.model.MappingUnit">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="BIGINT" property="id" />
+        <result column="create_time" jdbcType="DATE" property="createTime" />
+        <result column="modify_time" jdbcType="DATE" property="modifyTime" />
+        <result column="memo" jdbcType="VARCHAR" property="memo" />
+        <result column="unit_name" jdbcType="VARCHAR" property="unitName" />
+        <result column="register_address" jdbcType="VARCHAR" property="registerAddress" />
+        <result column="register_time" jdbcType="DATE" property="registerTime" />
+        <result column="oa" jdbcType="VARCHAR" property="oa" />
+        <result column="corporation" jdbcType="VARCHAR" property="corporation" />
+        <result column="linkman" jdbcType="VARCHAR" property="linkman" />
+        <result column="owned_district" jdbcType="VARCHAR" property="ownedDistrict" />
+        <result column="register_fund" jdbcType="DOUBLE" property="registerFund" />
+        <result column="social_credit_code" jdbcType="VARCHAR" property="socialCreditCode" />
+        <result column="qualification_level" jdbcType="VARCHAR" property="qualificationLevel" />
+        <result column="phone" jdbcType="VARCHAR" property="phone" />
+        <result column="contact_way" jdbcType="VARCHAR" property="contactWay" />
+        <result column="used_name" jdbcType="VARCHAR" property="usedName" />
+        <result column="register_address_lon" jdbcType="VARCHAR" property="registerAddressLon" />
+        <result column="register_address_lat" jdbcType="VARCHAR" property="registerAddressLat" />
+        <result column="register_address_postcode" jdbcType="VARCHAR" property="registerAddressPostcode" />
+        <result column="oa_postcode" jdbcType="VARCHAR" property="oaPostcode" />
+        <result column="oa_area" jdbcType="DOUBLE" property="oaArea" />
+        <result column="establish_time" jdbcType="DATE" property="establishTime" />
+        <result column="mobile_phone" jdbcType="VARCHAR" property="mobilePhone" />
+        <result column="fax_num" jdbcType="VARCHAR" property="faxNum" />
+        <result column="email" jdbcType="VARCHAR" property="email" />
+        <result column="surveying_num" jdbcType="INTEGER" property="surveyingNum" />
+        <result column="staff_num" jdbcType="INTEGER" property="staffNum" />
+        <result column="unit_nature" jdbcType="VARCHAR" property="unitNature" />
+        <result column="belong_industry" jdbcType="VARCHAR" property="belongIndustry" />
+        <result column="certificate_code" jdbcType="VARCHAR" property="certificateCode" />
+        <result column="certificate_send_date" jdbcType="DATE" property="certificateSendDate" />
+        <result column="company_type" jdbcType="VARCHAR" property="companyType" />
+        <result column="stock_details" jdbcType="VARCHAR" property="stockDetails" />
+        <result column="joint_venture" jdbcType="VARCHAR" property="jointVenture" />
+        <result column="joint_ch_p" jdbcType="INTEGER" property="jointChP" />
+        <result column="joint_ratify_code" jdbcType="VARCHAR" property="jointRatifyCode" />
+        <result column="competent_depart" jdbcType="VARCHAR" property="competentDepart" />
+        <result column="first_qualification_level" jdbcType="VARCHAR" property="firstQualificationLevel" />
+        <result column="first_qualification_date" jdbcType="DATE" property="firstQualificationDate" />
+        <result column="qualification_process" jdbcType="VARCHAR" property="qualificationProcess" />
+        <result column="organization_code" jdbcType="VARCHAR" property="organizationCode" />
+        <result column="unit_type" jdbcType="VARCHAR" property="unitType" />
+        <result column="user_id" jdbcType="BIGINT" property="userId" />
+        <result column="audit_status" jdbcType="INTEGER" property="auditStatus" />
+        <result column="unit_code" jdbcType="VARCHAR" property="unitCode" />
+        <result column="unit_status" jdbcType="INTEGER" property="unitStatus" />
+        <result column="synchronization_status" jdbcType="INTEGER" property="synchronizationStatus" />
+        <result column="score" jdbcType="INTEGER" property="score" />
+        <result column="filing_business" jdbcType="VARCHAR" property="filingBusiness" />
+        <result column="business_scope" jdbcType="LONGVARCHAR" property="businessScope" />
+        <result column="unit_intro" jdbcType="LONGVARCHAR" property="unitIntro" />
+        <result column="coordinate" jdbcType="LONGVARCHAR" property="coordinate" />
+    </resultMap>
+
+</mapper>
